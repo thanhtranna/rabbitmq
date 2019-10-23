@@ -1,0 +1,4 @@
+github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271 h1:WhxRHzgeVGETMlmVfqhRn8RIeeNoPr2Czh33I4Zdccw=
+github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271/go.mod h1:AZpEONHx3DKn8O/DFsRAY58/XVQiIPMTMB1SddzLXVw=
+github.com/thetannerryan/buff v1.0.2 h1:UYWy+hEWL0YhBTRDyh2wvrQ5hZ76oEoPLHnPJQ7KTkU=
+github.com/thetannerryan/buff v1.0.2/go.mod h1:4D01AGT5/h/LoHsKJSAMRLSYPoQHU0+qYtt9zfhDRRI=

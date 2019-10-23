@@ -1,0 +1,21 @@
+version: "3.2"
+
+services:
+  service1:
+    build: ./
+    command: go run receive_logs.go
+    volumes:
+     - ./temp:/service1
+    ports:
+      - "5003:80"
+
+  service2:
+    build: ./
+    command: go run receive_logs1.go
+    volumes:
+      - ./temp:/service2
+    ports:
+      - "5002:80"
+
+volumes:
+  temp:
